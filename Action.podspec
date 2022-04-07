@@ -22,8 +22,8 @@ Pod::Spec.new do |s|
   s.swift_version   =   '5.0'
 
   s.frameworks  = "Foundation"
-  s.dependency "RxSwift", '~> 6.0'
-  s.dependency "RxCocoa", '~> 6.0'
+  s.dependency "RxSwift", '~> 6.5'
+  s.dependency "RxCocoa", '~> 6.5'
 
   s.watchos.exclude_files = "Control+Action.swift", "Button+Action.swift", "UIBarButtonItem+Action.swift", "UIAlertAction+Action.swift"
   s.osx.exclude_files = "UIBarButtonItem+Action.swift", "UIAlertAction+Action.swift"
